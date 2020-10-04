@@ -1,0 +1,14 @@
+git     init
+		config --global user.name ""
+		config --global user.email ""
+		add
+		commit
+		status
+		log
+		log --pretty=oneline
+		log --oneline
+		reflog
+		reset --hard 索引——>:git reflog命令产生的索引，使用hard参数回退版本会改变本地库、暂存区、工作区
+		reset --mixed 索引,mixed参数 会改变本地库和暂存区
+		reset --soft 索引，soft参数 仅改变本地库
+	
